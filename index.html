@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <div class="container">
+    <div class="text">
+      <h2>Learn to code by watching others</h2>
+      <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+        but understanding how developers think is invaluable.</p>
+    </div>
+    <div class="btn-input">
+      <button class="button"><span>Try it free 7 days</span> then $20/mo. thereafter</button>
+      <div class="inputs">
+        
+        <form action="#">
+          
+          <div class="input-div">
+            <input type="text" placeholder="First Name" id="first-name"><img src="./images/icon-error.svg" class="icon"alt="error-icon" id="icon-first">
+          <p class="msg"id="error-first">First name cannot be empty</p>
+          </div>
+  
+          <div class="input-div">
+            <input type="text" placeholder="Last Name"id="last-name"><img src="./images/icon-error.svg" class="icon"alt="error-icon"id="icon-last">
+          <p class="msg"id="error-last">Last name cannot be empty</p>
+          </div>
+  
+          <div class="input-div">
+            <input type="email"placeholder="Email Address"id="email-address" autocomplete="email"><img src="./images/icon-error.svg"class="icon" alt="error-icon"id="icon-mail">
+          <p class="msg"id="error-mail">Look like this is not an email</p>
+          </div>
+  
+          <div class="input-div">
+            <input type="password"placeholder="Password"id="password"><img src="./images/icon-error.svg"class="icon" alt="error-icon"id="icon-password">
+          <p class="msg"id="error-password">Password cannot be empty</p>
+          </div>
+          
+          
+          
+          
+          <button class="trial"  id="btn">Claim your free trial </button>
+        </form>
+        <p class="terms-services">By clicking the button, you are agreeing to our <span class="terms">Terms and Services</span></p>
+      </div>
+    </div>
+    
+  </div>
+  <script src="app.js"></script>
+</main>
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Antoine Estievenart</a>.
+    </p>
+  </footer>
+</body>
+</html>
